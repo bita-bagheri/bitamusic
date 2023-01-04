@@ -1,0 +1,119 @@
+/* Bita Bagheri-40131844-WEBHW */
+*{
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+    background-image: linear-gradient(#0046ae,#9198e5);
+}
+
+.bigpart {
+    box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 50%);
+    text-align: center;
+    height: 400px;
+    width: 270px;
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    margin: 0px auto;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 180px;
+}
+
+
+.bigpart:hover {
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+
+}
+
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 7px;
+    
+}
+
+img:hover {
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+
+}
+
+.songname {
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    margin-bottom: 5px;
+
+}
+
+.songwriters {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #666666;
+    font-size: smaller;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.songwriters:hover {
+    cursor: pointer;
+    color: #2e2e2e;
+    transition: 0.4s;
+}
+
+
+input{
+    width: 90%;
+}
+
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    display: inline;
+}
+
+.mtime {
+    margin: 0px auto;
+    width: 90%;
+    text-align: left;
+}
+.time {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    width: 49%;
+}
+
+#end {
+    text-align: right;
+}
+
+.play,
+.back,
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+
+
+.back:hover,
+.for:hover,
+.play:hover {
+    border-color: #bebebe;
+}
+
